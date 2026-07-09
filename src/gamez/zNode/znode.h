@@ -270,6 +270,9 @@ namespace zdb
 		virtual void OnMove(CNode* node) {}
 		virtual void OnSelect(CNode* node, bool selected) {}
 		virtual void OnWeaponHit(CNode* node, IntersectStruct* intersection, CZProjectile* projectile) {}
+
+	public:
+		class CEntity* m_entity;
 	};
 }
 #endif
