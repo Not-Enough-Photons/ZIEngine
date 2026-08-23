@@ -1,0 +1,5441 @@
+[
+ {
+  "id_slot": "0x005b17c0",
+  "handler": "MediusUniqueCallbackWorldReportHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 20,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 92,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 348,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 352,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 356,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 360,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 364,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 368,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 372,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 376,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 380,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 381
+ },
+ {
+  "id_slot": "0x005b17c4",
+  "handler": "MediusUniqueCallbackPlayerReportHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 20,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 24,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   }
+  ],
+  "bytes": 277
+ },
+ {
+  "id_slot": "0x005b17c8",
+  "handler": "MediusUniqueCallbackEndGameReportHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 20,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 24,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 88,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 120,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 121
+ },
+ {
+  "id_slot": "0x005b17d0",
+  "handler": "MediusUniqueCallbackSessionBeginRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b17d4",
+  "handler": "MediusUniqueCallbackSessionBeginResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b17d8",
+  "handler": "MediusUniqueCallbackSessionEndRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b17dc",
+  "handler": "MediusUniqueCallbackSessionEndResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b17e8",
+  "handler": "MediusUniqueCallbackAccountLoginRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 70,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 102
+ },
+ {
+  "id_slot": "0x005b17ec",
+  "handler": "MediusUniqueCallbackAccountLoginResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 72,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 88,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 92,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 96,
+    "size": 4,
+    "count": 16,
+    "bytes": 64
+   },
+   {
+    "offset": 160,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 177,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 671
+ },
+ {
+  "id_slot": "0x005b17f8",
+  "handler": "MediusUniqueCallbackAccountRegistrationRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 76,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 106
+ },
+ {
+  "id_slot": "0x005b17fc",
+  "handler": "MediusUniqueCallbackAccountRegistrationResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1800",
+  "handler": "MediusUniqueCallbackAccountGetProfileRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b1804",
+  "handler": "MediusUniqueCallbackAccountGetProfileResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 64,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 66,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 68,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 70,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 102,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 134,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 166,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 198,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 230,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 262,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 294,
+    "size": 1,
+    "count": 3,
+    "bytes": 3
+   },
+   {
+    "offset": 297,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 329,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 361,
+    "size": 1,
+    "count": 16,
+    "bytes": 16
+   },
+   {
+    "offset": 377,
+    "size": 1,
+    "count": 80,
+    "bytes": 80
+   }
+  ],
+  "bytes": 422
+ },
+ {
+  "id_slot": "0x005b1808",
+  "handler": "MediusUniqueCallbackAccountUpdateProfileRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 40,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 42,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 76,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 108,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 140,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 172,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 204,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 236,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 268,
+    "size": 1,
+    "count": 3,
+    "bytes": 3
+   },
+   {
+    "offset": 271,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 303,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 335,
+    "size": 1,
+    "count": 16,
+    "bytes": 16
+   },
+   {
+    "offset": 351,
+    "size": 1,
+    "count": 80,
+    "bytes": 80
+   }
+  ],
+  "bytes": 431
+ },
+ {
+  "id_slot": "0x005b180c",
+  "handler": "MediusUniqueCallbackAccountUpdateProfileResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1810",
+  "handler": "MediusUniqueCallbackAccountUpdatePasswordRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 70,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 102
+ },
+ {
+  "id_slot": "0x005b1814",
+  "handler": "MediusUniqueCallbackAccountUpdatePasswordResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1818",
+  "handler": "MediusUniqueCallbackAccountUpdateStatsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   }
+  ],
+  "bytes": 294
+ },
+ {
+  "id_slot": "0x005b181c",
+  "handler": "MediusUniqueCallbackAccountUpdateStatsResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1820",
+  "handler": "MediusUniqueCallbackAccountDeleteRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 70
+ },
+ {
+  "id_slot": "0x005b1824",
+  "handler": "MediusUniqueCallbackAccountDeleteResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b17f0",
+  "handler": "MediusUniqueCallbackAccountLogoutRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b17f4",
+  "handler": "MediusUniqueCallbackAccountLogoutResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b17e0",
+  "handler": "MediusUniqueCallbackAccountGetIDRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 70
+ },
+ {
+  "id_slot": "0x005b17e4",
+  "handler": "MediusUniqueCallbackAccountGetIDResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1828",
+  "handler": "MediusUniqueCallbackAnonymousLoginRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 70,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 102
+ },
+ {
+  "id_slot": "0x005b182c",
+  "handler": "MediusUniqueCallbackAnonymousLoginResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 72,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 88,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 92,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 96,
+    "size": 4,
+    "count": 16,
+    "bytes": 64
+   },
+   {
+    "offset": 160,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 177,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 671
+ },
+ {
+  "id_slot": "0x005b1908",
+  "handler": "MediusUniqueCallbackGetMyIPRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b190c",
+  "handler": "MediusUniqueCallbackGetMyIPResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 20,
+    "bytes": 20
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 45
+ },
+ {
+  "id_slot": "0x005b1830",
+  "handler": "MediusUniqueCallbackCreateGameRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 56,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 120,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 152,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 156,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 160,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 164,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 168,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 172,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 174
+ },
+ {
+  "id_slot": "0x005b1834",
+  "handler": "MediusUniqueCallbackCreateGameResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1838",
+  "handler": "MediusUniqueCallbackCreateGameOnSelfRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 56,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 60,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 64,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 128,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 160,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 164,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 168,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 172,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 176,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 180,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 184,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 188,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 192,
+    "size": 1,
+    "count": 16,
+    "bytes": 16
+   },
+   {
+    "offset": 208,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 212,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 216,
+    "size": 1,
+    "count": 16,
+    "bytes": 16
+   },
+   {
+    "offset": 232,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 226
+ },
+ {
+  "id_slot": "0x005b183c",
+  "handler": "MediusUniqueCallbackCreateGameOnSelfResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1840",
+  "handler": "MediusUniqueCallbackCreateChannelRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 112,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 142
+ },
+ {
+  "id_slot": "0x005b1844",
+  "handler": "MediusUniqueCallbackCreateChannelResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1848",
+  "handler": "MediusUniqueCallbackJoinGameRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 76,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 80,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 84,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 100,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 104,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 108,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   }
+  ],
+  "bytes": 570
+ },
+ {
+  "id_slot": "0x005b184c",
+  "handler": "MediusUniqueCallbackJoinGameResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 56,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 60,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 64,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 80,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 84,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 88,
+    "size": 4,
+    "count": 16,
+    "bytes": 64
+   },
+   {
+    "offset": 152,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 169,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 663
+ },
+ {
+  "id_slot": "0x005b1850",
+  "handler": "MediusUniqueCallbackJoinChannelRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1854",
+  "handler": "MediusUniqueCallbackJoinChannelResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 56,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 60,
+    "size": 16,
+    "count": 16,
+    "bytes": 256
+   },
+   {
+    "offset": 76,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 80,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 84,
+    "size": 4,
+    "count": 16,
+    "bytes": 64
+   },
+   {
+    "offset": 148,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 165,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 655
+ },
+ {
+  "id_slot": "0x005b1858",
+  "handler": "MediusUniqueCallbackJoinChannelFwdRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b185c",
+  "handler": "MediusUniqueCallbackJoinChannelFwdResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 56,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 59
+ },
+ {
+  "id_slot": "0x005b1860",
+  "handler": "MediusUniqueCallbackGameListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 46,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b1864",
+  "handler": "MediusUniqueCallbackGameListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 96,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 100,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 104,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 108,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 106
+ },
+ {
+  "id_slot": "0x005b1868",
+  "handler": "MediusUniqueCallbackChannelListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   },
+   {
+    "offset": 40,
+    "size": 2,
+    "count": 1,
+    "bytes": 2
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b186c",
+  "handler": "MediusUniqueCallbackChannelListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 96,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 100,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 98
+ },
+ {
+  "id_slot": "0x005b1870",
+  "handler": "MediusUniqueCallbackLobbyWorldPlayerListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1874",
+  "handler": "MediusUniqueCallbackLobbyWorldPlayerListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 68,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 324,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 328,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 326
+ },
+ {
+  "id_slot": "0x005b1878",
+  "handler": "MediusUniqueCallbackGameWorldPlayerListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b187c",
+  "handler": "MediusUniqueCallbackGameWorldPlayerListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 320,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 324,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 322
+ },
+ {
+  "id_slot": "0x005b1880",
+  "handler": "MediusUniqueCallbackPlayerInfoRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1884",
+  "handler": "MediusUniqueCallbackPlayerInfoResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 60,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 72,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 68,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 325
+ },
+ {
+  "id_slot": "0x005b1888",
+  "handler": "MediusUniqueCallbackGameInfoRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b188c",
+  "handler": "MediusUniqueCallbackGameInfoResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 308,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 372,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 376,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 380,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 384,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 388,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 392,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 393
+ },
+ {
+  "id_slot": "0x005b1890",
+  "handler": "MediusUniqueCallbackChannelInfoRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1894",
+  "handler": "MediusUniqueCallbackChannelInfoResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 92,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 96,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 97
+ },
+ {
+  "id_slot": "0x005b1898",
+  "handler": "MediusUniqueCallbackFindWorldByNameRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 104,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 106
+ },
+ {
+  "id_slot": "0x005b189c",
+  "handler": "MediusUniqueCallbackFindWorldByNameResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 72,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 136,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 140,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 106
+ },
+ {
+  "id_slot": "0x005b18a0",
+  "handler": "MediusUniqueCallbackFindPlayerRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 78
+ },
+ {
+  "id_slot": "0x005b18a4",
+  "handler": "MediusUniqueCallbackFindPlayerResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 72,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 76,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 105
+ },
+ {
+  "id_slot": "0x005b18a8",
+  "handler": "MediusUniqueCallbackChatMessageHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   }
+  ],
+  "bytes": 110
+ },
+ {
+  "id_slot": "0x005b18ac",
+  "handler": "MediusUniqueCallbackChatFwdMessageHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 60,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 64,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   }
+  ],
+  "bytes": 125
+ },
+ {
+  "id_slot": "0x005b18b0",
+  "handler": "MediusUniqueCallbackGetBuddyListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b18b4",
+  "handler": "MediusUniqueCallbackGetBuddyListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 66
+ },
+ {
+  "id_slot": "0x005b18b8",
+  "handler": "MediusUniqueCallbackAddToBuddyListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b18bc",
+  "handler": "MediusUniqueCallbackAddToBuddyListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b18c8",
+  "handler": "MediusUniqueCallbackRemoveFromBuddyListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b18cc",
+  "handler": "MediusUniqueCallbackRemoveFromBuddyListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b18d0",
+  "handler": "MediusUniqueCallbackAddToBuddyListConfirmationRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b18d4",
+  "handler": "MediusUniqueCallbackAddToBuddyListConfirmationResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 61
+ },
+ {
+  "id_slot": "0x005b18c0",
+  "handler": "MediusUniqueCallbackAddToBuddyListFwdConfirmationRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 57
+ },
+ {
+  "id_slot": "0x005b18c4",
+  "handler": "MediusUniqueCallbackAddToBuddyListFwdConfirmationResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b18d8",
+  "handler": "MediusUniqueCallbackGetPolicyRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b18dc",
+  "handler": "MediusUniqueCallbackGetPolicyResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 284,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 282
+ },
+ {
+  "id_slot": "0x005b18e0",
+  "handler": "MediusUniqueCallbackUpdateUserStateHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 20,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 21
+ },
+ {
+  "id_slot": "0x005b17cc",
+  "handler": "MediusUniqueCallbackErrorMessageHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 4,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   }
+  ],
+  "bytes": 260
+ },
+ {
+  "id_slot": "0x005b18e4",
+  "handler": "MediusUniqueCallbackGetAnnouncementsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b18e8",
+  "handler": "MediusUniqueCallbackGetAllAnnouncementsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b18ec",
+  "handler": "MediusUniqueCallbackGetAnnouncementsResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 1000,
+    "bytes": 1000
+   },
+   {
+    "offset": 1032,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 1030
+ },
+ {
+  "id_slot": "0x005b18f0",
+  "handler": "MediusUniqueCallbackSetGameListFilterRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 50
+ },
+ {
+  "id_slot": "0x005b18f4",
+  "handler": "MediusUniqueCallbackSetGameListFilterResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b18f8",
+  "handler": "MediusUniqueCallbackClearGameListFilterRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b18fc",
+  "handler": "MediusUniqueCallbackClearGameListFilterResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1900",
+  "handler": "MediusUniqueCallbackGetGameListFilterRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b1904",
+  "handler": "MediusUniqueCallbackGetGameListFilterResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 37
+ },
+ {
+  "id_slot": "0x005b1918",
+  "handler": "MediusUniqueCallbackCreateClanRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 74
+ },
+ {
+  "id_slot": "0x005b191c",
+  "handler": "MediusUniqueCallbackCreateClanResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1920",
+  "handler": "MediusUniqueCallbackDisbandClanRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1924",
+  "handler": "MediusUniqueCallbackDisbandClanResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1928",
+  "handler": "MediusUniqueCallbackGetClanByIDRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b192c",
+  "handler": "MediusUniqueCallbackGetClanByIDResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 100,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 356,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 357
+ },
+ {
+  "id_slot": "0x005b1930",
+  "handler": "MediusUniqueCallbackGetClanByNameRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 74
+ },
+ {
+  "id_slot": "0x005b1934",
+  "handler": "MediusUniqueCallbackGetClanByNameResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 68,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 324,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 325
+ },
+ {
+  "id_slot": "0x005b1938",
+  "handler": "MediusUniqueCallbackTransferClanLeadershipRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   }
+  ],
+  "bytes": 74
+ },
+ {
+  "id_slot": "0x005b193c",
+  "handler": "MediusUniqueCallbackTransferClanLeadershipResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1940",
+  "handler": "MediusUniqueCallbackAddPlayerToClanRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 242
+ },
+ {
+  "id_slot": "0x005b1944",
+  "handler": "MediusUniqueCallbackAddPlayerToClanResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1948",
+  "handler": "MediusUniqueCallbackRemovePlayerFromClanRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b194c",
+  "handler": "MediusUniqueCallbackRemovePlayerFromClanResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1950",
+  "handler": "MediusUniqueCallbackInvitePlayerToClanRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 242
+ },
+ {
+  "id_slot": "0x005b1954",
+  "handler": "MediusUniqueCallbackInvitePlayerToClanResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1958",
+  "handler": "MediusUniqueCallbackCheckMyClanInvitationsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b195c",
+  "handler": "MediusUniqueCallbackCheckMyClanInvitationsResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   },
+   {
+    "offset": 240,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 244,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 276,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 274
+ },
+ {
+  "id_slot": "0x005b1968",
+  "handler": "MediusUniqueCallbackRespondToClanInvitationRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 246
+ },
+ {
+  "id_slot": "0x005b196c",
+  "handler": "MediusUniqueCallbackRespondToClanInvitationResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1970",
+  "handler": "MediusUniqueCallbackRevokeClanInvitationRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1974",
+  "handler": "MediusUniqueCallbackRevokeClanInvitationResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1978",
+  "handler": "MediusUniqueCallbackRequestClanTeamChallengeRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 242
+ },
+ {
+  "id_slot": "0x005b197c",
+  "handler": "MediusUniqueCallbackRequestClanTeamChallengeResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1980",
+  "handler": "MediusUniqueCallbackGetMyClanMessagesRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 50
+ },
+ {
+  "id_slot": "0x005b1984",
+  "handler": "MediusUniqueCallbackGetMyClanMessagesResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   },
+   {
+    "offset": 232,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 230
+ },
+ {
+  "id_slot": "0x005b1988",
+  "handler": "MediusUniqueCallbackSendClanMessageRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 38,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 238
+ },
+ {
+  "id_slot": "0x005b198c",
+  "handler": "MediusUniqueCallbackSendClanMessageResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 0,
+    "size": 21,
+    "count": 1,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b1990",
+  "handler": "MediusUniqueCallbackModifyClanMessageRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 242
+ },
+ {
+  "id_slot": "0x005b1994",
+  "handler": "MediusUniqueCallbackModifyClanMessageResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1998",
+  "handler": "MediusUniqueCallbackDeleteClanMessageRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b199c",
+  "handler": "MediusUniqueCallbackDeleteClanMessageResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b19a0",
+  "handler": "MediusUniqueCallbackRespondToClanTeamChallengeRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   }
+  ],
+  "bytes": 246
+ },
+ {
+  "id_slot": "0x005b19a4",
+  "handler": "MediusUniqueCallbackRespondToClanTeamChallengeResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b19a8",
+  "handler": "MediusUniqueCallbackRevokeClanTeamChallengeRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b19ac",
+  "handler": "MediusUniqueCallbackRevokeClanTeamChallengeResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b19d0",
+  "handler": "MediusUniqueCallbackGetClanTeamChallengeHistoryRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 54
+ },
+ {
+  "id_slot": "0x005b19d4",
+  "handler": "MediusUniqueCallbackGetClanTeamChallengeHistoryResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 34
+ },
+ {
+  "id_slot": "0x005b1960",
+  "handler": "MediusUniqueCallbackGetClanInvitationsSentRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b1964",
+  "handler": "MediusUniqueCallbackGetClanInvitationsSentResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 64,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   },
+   {
+    "offset": 264,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 268,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 272,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 266
+ },
+ {
+  "id_slot": "0x005b19b0",
+  "handler": "MediusUniqueCallbackGetMyClansRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b19b4",
+  "handler": "MediusUniqueCallbackGetMyClansResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 68,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 72,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 104,
+    "size": 1,
+    "count": 256,
+    "bytes": 256
+   },
+   {
+    "offset": 364,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 358
+ },
+ {
+  "id_slot": "0x005b19c8",
+  "handler": "MediusUniqueCallbackGetAllClanMessagesRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b19cc",
+  "handler": "MediusUniqueCallbackGetAllClanMessagesResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   },
+   {
+    "offset": 232,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 236,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 234
+ },
+ {
+  "id_slot": "0x005b19c0",
+  "handler": "MediusUniqueCallbackConfirmClanTeamChallengeRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b19c4",
+  "handler": "MediusUniqueCallbackConfirmClanTeamChallengeResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b19b8",
+  "handler": "MediusUniqueCallbackGetClanTeamChallengesRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 56,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 58
+ },
+ {
+  "id_slot": "0x005b19bc",
+  "handler": "MediusUniqueCallbackGetClanTeamChallengesResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   },
+   {
+    "offset": 244,
+    "size": 1,
+    "count": 200,
+    "bytes": 200
+   },
+   {
+    "offset": 444,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 442
+ },
+ {
+  "id_slot": "0x005b19d8",
+  "handler": "MediusUniqueCallbackUpdateClanStatsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 256,
+    "count": 256,
+    "bytes": 65536
+   }
+  ],
+  "bytes": 65578
+ },
+ {
+  "id_slot": "0x005b19dc",
+  "handler": "MediusUniqueCallbackUpdateClanStatsResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1910",
+  "handler": "MediusUniqueCallbackVersionServerRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b1914",
+  "handler": "MediusUniqueCallbackVersionServerResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 56,
+    "bytes": 56
+   }
+  ],
+  "bytes": 77
+ },
+ {
+  "id_slot": "0x005b19e0",
+  "handler": "MediusUniqueCallbackGetWorldSecurityLevelRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 46
+ },
+ {
+  "id_slot": "0x005b19e4",
+  "handler": "MediusUniqueCallbackGetWorldSecurityLevelResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 32,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 36,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 37
+ },
+ {
+  "id_slot": "0x005b19e8",
+  "handler": "MediusUniqueCallbackBanPlayerRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 54
+ },
+ {
+  "id_slot": "0x005b19ec",
+  "handler": "MediusUniqueCallbackBanPlayerResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b19f0",
+  "handler": "MediusUniqueCallbackGetLocationsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   }
+  ],
+  "bytes": 38
+ },
+ {
+  "id_slot": "0x005b19f4",
+  "handler": "MediusUniqueCallbackGetLocationsResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 64,
+    "count": 64,
+    "bytes": 4096
+   },
+   {
+    "offset": 92,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 96,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 4126
+ },
+ {
+  "id_slot": "0x005b19f8",
+  "handler": "MediusUniqueCallbackPickLocationRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b19fc",
+  "handler": "MediusUniqueCallbackPickLocationResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1a00",
+  "handler": "MediusUniqueCallbackGetClanMemberListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1a04",
+  "handler": "MediusUniqueCallbackGetClanMemberListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 60,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 64,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   }
+  ],
+  "bytes": 62
+ },
+ {
+  "id_slot": "0x005b1a08",
+  "handler": "MediusUniqueCallbackLadderPositionRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 54
+ },
+ {
+  "id_slot": "0x005b1a0c",
+  "handler": "MediusUniqueCallbackLadderPositionResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1a10",
+  "handler": "MediusUniqueCallbackLadderListRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 48,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 52,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 56,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 58
+ },
+ {
+  "id_slot": "0x005b1a14",
+  "handler": "MediusUniqueCallbackLadderListResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 1,
+    "count": 32,
+    "bytes": 32
+   },
+   {
+    "offset": 60,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 68,
+    "size": 1,
+    "count": 1,
+    "bytes": 1
+   },
+   {
+    "offset": 64,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 66
+ },
+ {
+  "id_slot": "0x005b1a18",
+  "handler": "MediusUniqueCallbackChatToggleRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1a1c",
+  "handler": "MediusUniqueCallbackChatToggleResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 25
+ },
+ {
+  "id_slot": "0x005b1a20",
+  "handler": "MediusUniqueCallbackTextFilterRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 44,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   }
+  ],
+  "bytes": 106
+ },
+ {
+  "id_slot": "0x005b1a24",
+  "handler": "MediusUniqueCallbackTextFilterResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 64,
+    "bytes": 64
+   },
+   {
+    "offset": 88,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 89
+ },
+ {
+  "id_slot": "0x005b1a28",
+  "handler": "MediusUniqueCallbackReassignGameMediusWorldIDHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 4,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 8
+ },
+ {
+  "id_slot": "0x005b1a2c",
+  "handler": "MediusUniqueCallbackGetTotalGamesRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1a30",
+  "handler": "MediusUniqueCallbackGetTotalGamesResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ },
+ {
+  "id_slot": "0x005b1a34",
+  "handler": "MediusUniqueCallbackGetTotalChannelsRequestHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 21,
+    "size": 1,
+    "count": 17,
+    "bytes": 17
+   },
+   {
+    "offset": 40,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 42
+ },
+ {
+  "id_slot": "0x005b1a38",
+  "handler": "MediusUniqueCallbackGetTotalChannelsResponseHandler",
+  "fields": [
+   {
+    "offset": 0,
+    "size": 1,
+    "count": 21,
+    "bytes": 21
+   },
+   {
+    "offset": 24,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   },
+   {
+    "offset": 28,
+    "size": 4,
+    "count": 1,
+    "bytes": 4
+   }
+  ],
+  "bytes": 29
+ }
+]
