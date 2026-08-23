@@ -1,0 +1,10 @@
+# Never commit game files. The tools take your own SCUS_972.05 as input.
+disc/
+*.iso
+*.bin
+*.cue
+*.ZAR
+*.zar
+SCUS_*
+*.pyc
+__pycache__/
